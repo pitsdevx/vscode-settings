@@ -1,0 +1,113 @@
+{
+	// ─── THEME ─────────────────────────────────────
+	"workbench.colorTheme": "August - Kanagawa",
+	"workbench.preferredDarkColorTheme": "August - Kanagawa",
+
+	// ─── TYPOGRAPHY ─────────────────────────────────
+	"editor.fontSize": 17,
+	"editor.lineHeight": 22.5,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "JetBrains Mono, PragmataPro Mono Liga, MonoLisa, Cascadia Code, SF Mono, Fira Code, Ubuntu Mono, monospace",
+	"editor.inlayHints.fontFamily": "PragmataPro",
+	"chat.editor.fontFamily": "PragmataPro",
+	"editor.codeLensFontFamily": "PragmataPro",
+	"debug.console.fontFamily": "PragmataPro",
+
+	// ─── CURSOR ─────────────────────────────────────
+	"editor.cursorBlinking": "phase",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"editor.hideCursorInOverviewRuler": true,
+
+	// ─── MINIMAL UI ─────────────────────────────────
+	"editor.minimap.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.glyphMargin": false,
+	"editor.folding": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.renderControlCharacters": false,
+
+	// ─── WINDOW ─────────────────────────────────────
+	"window.zoomLevel": 1,
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.statusBar.visible": false,
+	"workbench.activityBar.location": "default",
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.panel.showLabels": false,
+	"chat.commandCenter.enabled": false,
+
+	// ─── TABS ───────────────────────────────────────
+	"workbench.editor.tabSizing": "shrink",
+	"window.density.editorTabHeight": "compact",
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.limit.value": 5,
+	"workbench.editor.limit.perEditorGroup": true,
+
+	// ─── TERMINAL ───────────────────────────────────
+	"terminal.integrated.fontFamily": "PragmataPro Liga",
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.stickyScroll.enabled": false,
+	"terminal.integrated.tabs.defaultIcon": "symbol-event",
+
+	// ─── STICKY SCROLL / TREE ───────────────────────
+	"editor.stickyScroll.enabled": true,
+	"editor.stickyScroll.scrollWithEditor": false,
+	"workbench.tree.enableStickyScroll": false,
+
+	// ─── BREADCRUMBS (DISABLED) ─────────────────────
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	// ─── SYNTAX HIGHLIGHTING ────────────────────────
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js"
+				],
+				"settings": { "fontStyle": "italic" }
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": { "fontStyle": "" }
+			}
+		]
+	},
+
+	// ─── DEBUG UI ───────────────────────────────────
+	"debug.toolBarLocation": "hidden",
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	// ─── ICON THEME ─────────────────────────────────
+	"workbench.iconTheme": "quill-icons"
+}
